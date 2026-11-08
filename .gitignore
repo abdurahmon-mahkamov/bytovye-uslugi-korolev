@@ -1,0 +1,7 @@
+# Служебные папки MultiTool
+.gigatool/
+.office-verify/
+
+# Системное
+Thumbs.db
+.DS_Store

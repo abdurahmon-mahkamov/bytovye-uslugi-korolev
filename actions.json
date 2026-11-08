@@ -1,0 +1,8 @@
+[
+  {"type":"click","selector":"a[href='#services']"},
+  {"type":"assert","selector":"#services h2","property":"text","equals":"Что мы берём в работу"},
+  {"type":"click","selector":"a[href='#visit']"},
+  {"type":"assert","selector":"#visit h2","property":"text","equals":"Приходите или позвоните"},
+  {"type":"assert","selector":"#year","property":"text","equals":"2026"},
+  {"type":"assert","selector":"a.skip","property":"text","equals":"К содержанию"}
+]
